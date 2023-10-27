@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.get("/", (req, res) => {
-  response(200, "API v1 ready to go", "SUCCESS", res);
+  response(200, "Welcome to the Karyawan Data Management API!", "Get started by exploring our API endpoints.", res);
 });
 
 
