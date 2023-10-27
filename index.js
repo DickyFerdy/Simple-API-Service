@@ -77,8 +77,8 @@ app.put("/karyawan", (req, res) => {
 
 
 app.delete("/karyawan", (req, res) => {
-  const {idKaryawan} = req.body;
-  KaryawanModel.deleteKaryawan(idKaryawan, (error, result) => {
+  const idKaryawan = req.body;
+  KaryawanModel.deleteKaryawanById(idKaryawan, (error, result) => {
     if (error) {
       return response(500, "Error", `Server error: ${error.message}`, res);
     }
