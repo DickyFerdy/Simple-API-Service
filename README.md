@@ -34,7 +34,7 @@ To run this API locally, make sure you have Node.js and XAMPP (or any other loca
 npm install
 npm start
 ```
-You can use Postman to test the API endpoints during development. Import the provided Postman collection and start testing! 🧪
+You can use Postman to test the API endpoints during development. Import the provided Postman collection and start testing!
 
 ## Please Note 📝
 This project is primarily intended for educational purposes. While it demonstrates the fundamentals of building a simple data management API, it may not be suitable for production use without additional development, security, and scalability considerations. Use this project as a learning resource and consider it a starting point for building more robust and production-ready APIs.
